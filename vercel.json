@@ -20,5 +20,11 @@
                 }
             ]
         }
+    ],
+    "rewrites": [
+        {
+            "source": "/api/openai/(.*)",
+            "destination": "https://api.chatanywhere.com.cn/$1"
+        }
     ]
 }
